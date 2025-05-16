@@ -1,0 +1,32 @@
+/* General Styles */
+body {
+  padding-top: 70px;
+  scroll-behavior: smooth;
+}
+
+.full-height {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.tech-logo {
+  transition: transform 0.3s ease;
+}
+
+.tech-logo:hover {
+  transform: scale(1.1);
+}
+
+/* Contact Form */
+form .form-control:focus {
+  box-shadow: none;
+  border-color: #007bff;
+}
+
+/* Footer */
+footer {
+  background-color: #f8f9fa;
+}
